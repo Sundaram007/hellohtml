@@ -1,0 +1,25 @@
+.titleWrapper {
+    background-color: #4e40c8;;
+    padding: 10px 0;
+}
+.titleWrapper h1 {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0 0 5px 0;
+}
+.tab-content{
+	    font-size: 16px;
+}
+.nav-tabs {
+    font-size: 16px;
+}
+.contact-details .contact-info{
+	padding:20px 10px 63px 10px;
+}
+.contact-details{
+    padding-bottom: 54px;
+}
+h5{
+	font-size: 16px;
+	text-decoration: underline;
+}

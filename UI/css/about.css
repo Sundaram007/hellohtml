@@ -1,0 +1,42 @@
+.about-banner{
+	background-image:url(../images/about-banner.jpg);
+	background-position:center;
+	background-size:100%;
+	background-position-y: -273px;
+	background-repeat: no-repeat;
+}
+.about-banner .row{
+	padding:80px 0px 80px 0px;
+}
+.about-banner h2{
+	color:#fff;
+	font-weight:normal;
+	font-size:31pt;
+}
+.about-banner h2 span{
+	color:#fff;
+	font-weight:bold;
+	font-size:31pt;
+}
+.about-text{
+	padding: 20px 0px 190px 0px;
+}
+.about-text span{
+	color:#f037b0;
+}
+.about-text h2{
+	color:#4e40c8;
+}
+.divider-img{
+	padding:10px 0px 10px 0px;
+}
+.about-video{
+	padding-bottom:20px;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}

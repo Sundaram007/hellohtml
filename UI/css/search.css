@@ -1,0 +1,264 @@
+@charset "utf-8";
+.temp{
+	padding-bottom:50px;
+}
+.search-sec{
+	background-color:#C4C4C4;
+    padding-bottom: 76px;
+}
+.top-header{
+	padding-bottom:10px;
+	background-color:#fff;
+}
+.top-header .row{
+	margin-right: 17px;
+    margin-left: 17px;
+}
+
+.by-region{
+	padding:10px 10px;
+	background-color:#FFFFFF;
+	border:2px solid #ccc;  
+	overflow-y: scroll;
+	height:200px;
+}
+.wrapper{
+	padding:20px 10px;
+	background-color:#FFFFFF;	
+	border:#989898 solid 1px;
+	border-radius:5px;
+}
+.search-page-content h4{
+	font-weight:bold;
+	color:#4e40c8;
+}
+.top-header h3 span{
+	color:#4e40c8;
+}
+
+.form-control:focus {
+    border-color: transparent;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+select {
+  margin: 5px;
+  width: 100% !important;
+}
+
+select.custom {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20fill%3D%22%23555555%22%20%0A%09%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%22-261%20145.2%2024%2024%22%20style%3D%22enable-background%3Anew%20-261%20145.2%2024%2024%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cpath%20d%3D%22M-245.3%2C156.1l-3.6-6.5l-3.7%2C6.5%20M-252.7%2C159l3.7%2C6.5l3.6-6.5%22%2F%3E%0A%3C%2Fsvg%3E");
+  padding-right: 25px;
+  background-repeat: no-repeat;
+  background-position: right center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select.custom::-ms-expand {
+  display: none;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 25px;
+    padding: 0px 5px;
+    font-size: 17px;
+    line-height: 1.42857143;
+    color: #555;
+	font-weight:bold;
+    background-color: #ffffff;
+    background-image: none;
+    border: none;
+    -webkit-box-shadow:none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	position: relative;
+    right: 6px;
+}
+.wrapper option {
+	background-color:#fff;
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+}
+input[type=radio].css-checkbox {
+							position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+						}
+
+						input[type=radio].css-checkbox + label.css-label {
+							padding-left:24px;
+							height:19px; 
+							display:inline-block;
+							line-height:19px;
+							background-repeat:no-repeat;
+							background-position: 0 0;
+							font-size:15px;
+							vertical-align:middle;
+							cursor:pointer;
+
+						}
+
+						input[type=radio].css-checkbox:checked + label.css-label {
+							background-position: 0 -19px;
+						}
+						label.css-label {
+				background-image:url(../images/radio-btn.png);
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+label {
+    font-weight: normal;
+}
+
+.by-region table tr td{
+	padding-top:4px;
+	padding-bottom:4px;
+}
+
+.flexcroll{
+    scrollbar-face-color: #367CD2;
+    scrollbar-shadow-color: #FFFFFF;
+    scrollbar-highlight-color: #FFFFFF;
+    scrollbar-3dlight-color: #FFFFFF;
+    scrollbar-darkshadow-color: #FFFFFF;
+    scrollbar-track-color: #FFFFFF;
+    scrollbar-arrow-color: #FFFFFF;
+}
+
+.flexcroll::-webkit-scrollbar {
+    width: 9px;
+}
+.info-box-2 table td{
+	font-weight: bold;
+    font-size: 11pt;
+    width: 200px;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+.info-box-2 table td i{
+	    color: #DB1D81;
+    padding-right: 10px;
+    font-size: 10pt;
+}
+.info-box-2 table td span{
+	font-weight: normal;
+    padding-left: 10px;
+    color: #828282;
+    font-size: 12pt;
+}
+.info-box-2-mobile table td{
+	font-weight: bold;
+    font-size: 11pt;
+    width: 200px;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+.info-box-2-mobile table td i{
+	    color: #DB1D81;
+    padding-right: 10px;
+    font-size: 10pt;
+}
+.info-box-2-mobile table td span{
+	font-weight: normal;
+    padding-left: 10px;
+    color: #828282;
+    font-size: 12pt;
+}
+.wrapper2{
+	padding-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    height: 300px;
+    border-radius: 4px; 
+}
+.wrapper2 h3{
+        margin-top: 0px;
+	    color: #f037af;
+		font-weight:bold;
+}
+.wrapper2 h3 span{
+	font-size: 12pt;
+    color: #000;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.wrapper2 h4{
+        padding-top: 35px;
+    position: relative;
+    right: 206px;
+	    color: #f037af;
+		font-weight:normal;
+}
+.wrapper2 h4 span{
+	font-size: 9pt;
+    color: #B3B3B3;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.profile-box{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 13px;
+    border: none;
+    border-radius: 5px;
+	height:auto;
+}
+
+.profile-image img {
+    float: left;
+    width: 176px;
+}
+.wrapper{
+	margin-bottom:20px;
+}
+.blue-line{
+	padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+}
+.blue-line button{
+    width: 100%;
+    color: #fff;
+    background-color: #4e40c8;
+    font-size: 17px;
+    border-radius: 0px !important;
+    margin-top: 18px;
+
+}
+.box-shadow-req-img{
+        box-shadow: 0 15px 10px #000;
+}
+.blue-line button:hover{
+    color: #fff;
+    background-color: #0e85d2;
+}
+.blue-line h6{
+	padding-top: 169px;
+    padding-bottom: 0px;
+	font-size:12pt;
+	letter-spacing:2px;
+}
+.pagi{
+	position: relative;
+    right: 112px;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #f037b0;
+    border-color: #ffffff;
+    }
+.pagination > li > a, .pagination > li > span {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px 16px;
+}

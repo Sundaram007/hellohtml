@@ -1,0 +1,59 @@
+.membership{
+	padding-top:20px;
+	padding-bottom:160px;
+}
+.membership h2{
+	color:#4e40c8;
+	font-size: 35px;
+}
+.membership h2 span{
+	color:#df49b4;
+}
+.membership .container{
+	padding-top:10px;
+}
+.membership-box{
+	text-align:center;
+	padding:10px 0px;
+	background-color: #fafafa;
+    border: solid 1px #ccc;
+    box-shadow: 0 0 10px #ccc;
+	margin-bottom: 20px;
+}
+.membership-box h1{
+	padding:10px 0px;
+	color:#df49b4;
+	font-size:30px;
+	font-weight:bold;
+}
+.membership-box h1 span{
+	color:#4e40c8;
+	font-style:italic;
+}
+.package{
+	padding: 40px 10px;
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.package big{
+	    display: block;
+    font-size: 40px;
+    color: #df49b4;
+
+}
+.membership-box ul{
+	    text-align: left;
+}
+.membership ul li{
+	    position: relative;
+    padding: 10px 5px;
+    font-size: 16px;
+    padding-left: 30px;
+}
+.membership ul li i{
+	color: #df49b4;
+	font-size:18px;
+}
+

@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<!-- front-end developed by Anil Sonawane : 2018 , anilrsonawane@gmail.com-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search | anmolnati</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+<link href="css/search.css" rel="stylesheet" type="text/css">
+
+<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+<link href="css/media_queries.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="css/Hover-master/css/hover-min.css" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+	<div class="topbar">
+    <div class="topbar-wrapper">
+    	<div class="logo pull-left"> 
+        <img src="images/logo.png" alt="">
+        </div>
+        <div class="topMid">
+              <span><i aria-hidden="true" class="glyphicon glyphicon-earphone"></i> &nbsp; 805 5563 000</span>|
+              <span><a href="mailto:info@mangalashtak.com"><i class="fa fa-envelope"></i> &nbsp; info@anmolnati.com</a></span>
+		  <div class="btn-group">
+				  <button type="button" class="btn btn-sm btn-default dropdown-toggle help-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-question-circle"></i> Help &nbsp;<span class="caret"></span></button>
+				  <ul class="dropdown-menu">
+				    <li role="presentation"><a href="#">First Link</a></li>
+                    <li role="presentation"><a href="#">Second Link</a></li>
+		    </ul>
+		  </div>
+        </div>
+            <div class="topRight pull-right" style="float:left">
+            <a href="registration.html" class="btn btn-default login-btn">Register</a>
+            <a href="javascript:;" data-toggle="modal" data-target="#myLoginModal" class="btn btn-default reg-btn">Login</a>
+    		</div>
+	</div>
+    </div>
+</div>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+
+    <div class="mobile-btn" style="float:left">
+            <a href="registration.html" class="btn btn-default login-btn">Register</a>
+            <a href="javascript:;" data-toggle="modal" data-target="#myLoginModal" class="btn btn-default reg-btn">Login</a>
+    </div>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="defaultNavbar1">
+      <ul class="nav navbar-nav">
+        <li class="remove-left-padding"><a href="index.html" class="hvr-underline-from-center">HOME</a></li>
+        <li><a href="about.html" class="hvr-underline-from-center">ABOUT ANMOLNATI</a></li>
+        <li class="active"><a href="search.html" class="hvr-underline-from-center">SEARCH OPTIONS</a></li>
+        <li><a href="successstories.html" class="hvr-underline-from-center">SUCCESS STORIES</a></li>
+        <li><a href="contact.html" class="hvr-underline-from-center">CONTACT US</a></li>
+        <li class="remove-right-padding"><a href="membership.html" class="hvr-underline-from-center">MEMBERSHIP</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+
+<section class="search-sec">
+<div class="top-header">
+	<div class="container">
+    	<div class="row">
+        	<h3 class="pull-left"> <span><i class="fa fa-search" aria-hidden="true"></i>&nbsp; 600 </span>Profiles Found.</h3>
+            <div class="pag">
+            
+           	  <nav>
+              <center>
+            	  <!-- Add class .pagination-lg for larger blocks or .pagination-sm for smaller blocks-->
+            	  <ul class="pagination pagi">
+            	    <li><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+            	    <li class="active"><a href="#">1</a></li>
+            	    <li><a href="#">2</a></li>
+            	    <li><a href="#">3</a></li>
+            	    <li><a href="#" aria-label="Next"> Next <span aria-hidden="true">&raquo;</span></a></li>
+          	    </ul>
+                </center>
+          	  </nav>
+              
+            </div>
+        </div>
+	</div>
+</div>   
+
+
+<div class="search-page-content">
+<div class="container"> 
+	<div class="col-md-3 col-lg-3">
+    <!-- first search option box-->
+    <center><h4>REFINE SEARCH</h4></center>
+    <div class="wrapper">
+    <select class="form-control">
+        	<option>Sort By Region</option>
+            <option>Sort By xx</option>
+            <option>Sort By zz</option>
+            <option>Sort By yy</option>
+        </select>
+    	<div class="by-region">
+        
+        <table>
+<tr>
+<td><input type="radio" name="first" id="radio1" class="css-checkbox" checked="checked"/><label for="radio1" class="css-label radGroup1">Western Maharasta (124)</label>
+</td>
+</tr>
+<tr>
+<td><input type="radio" name="first" id="radio2" class="css-checkbox"/><label for="radio2" class="css-label radGroup1">Mumbai (434)</label></td>
+</tr>
+<tr>
+<td><input type="radio" name="first" id="radio3" class="css-checkbox"/><label for="radio3" class="css-label radGroup1">Marathawada (134)</label></td>
+</tr>
+<tr>
+<td><input type="radio" name="first" id="radio4" class="css-checkbox" /><label for="radio4" class="css-label radGroup1">North Marahawada (53)</label></td>
+</tr>
+<tr>
+<td><input type="radio" name="first" id="radio5" class="css-checkbox" /><label for="radio5" class="css-label radGroup1"> Vishyaba (56)</label></td>
+</tr>
+<tr>
+<td><input type="radio" name="first" id="radio6" class="css-checkbox" /><label for="radio6" class="css-label radGroup1"> Option 1(23)</label></td>
+</tr>
+<tr>
+<td><input type="radio" name="first" id="radio7" class="css-checkbox" /><label for="radio7" class="css-label radGroup1"> Option 2 (5)</label></td>
+</tr>
+
+</table>
+		</div>
+    </div>
+    <!-- second search option box-->
+    <div class="wrapper">
+    <select class="form-control">
+        	<option>Sort By Sub Caste</option>
+            <option>Sort By xx</option>
+            <option>Sort By zz</option>
+            <option>Sort By yy</option>
+        </select>
+    	<div class="by-region">
+        
+        <table>
+<tr>
+<td><input type="radio" name="second" id="radio9" class="css-checkbox" checked="checked"/><label for="radio9" class="css-label radGroup1">Western Maharasta (124)</label>
+</td>
+</tr>
+<tr>
+<td><input type="radio" name="second" id="radio10" class="css-checkbox"/><label for="radio10" class="css-label radGroup1">Mumbai (434)</label></td>
+</tr>
+<tr>
+<td><input type="radio" name="second" id="radio11" class="css-checkbox"/><label for="radio11" class="css-label radGroup1">Marathawada (134)</label></td>
+</tr>
+<tr>
+<td><input type="radio" name="second" id="radio12" class="css-checkbox" /><label for="radio12" class="css-label radGroup1">North Marahawada (53)</label></td>
+</tr>
+<tr>
+<td><input type="radio" name="second" id="radio13" class="css-checkbox" /><label for="radio13" class="css-label radGroup1"> Vishyaba (56)</label></td>
+</tr>
+<tr>
+<td><input type="radio" name="second" id="radio14" class="css-checkbox" /><label for="radio14" class="css-label radGroup1"> Option 1(23)</label></td>
+</tr>
+<tr>
+<td><input type="radio" name="second" id="radio15" class="css-checkbox" /><label for="radio15" class="css-label radGroup1"> Option 2 (5)</label></td>
+</tr>
+
+</table>
+		</div>
+    </div>
+    
+    <!-- 3rd search option box-->
+    <div class="wrapper">
+    <select class="form-control">
+        	<option>Sort By Education</option>
+            <option>Sort By xx</option>
+            <option>Sort By zz</option>
+            <option>Sort By yy</option>
+        </select>
+    	<div class="by-region">
+        
+        <table>
+<tr>
+<td><input type="radio" name="third" id="radio16" class="css-checkbox" checked="checked"/><label for="radio16" class="css-label radGroup1">B.E (124)</label>
+</td>
+</tr>
+<tr>
+<td><input type="radio" name="third" id="radio17" class="css-checkbox"/><label for="radio17" class="css-label radGroup1">B.Com (434)</label></td>
+</tr>
+<tr>
+<td><input type="radio" name="third" id="radio18" class="css-checkbox"/><label for="radio18" class="css-label radGroup1">MBA (134)</label></td>
+</tr>
+<tr>
+<td><input type="radio" name="third" id="radio19" class="css-checkbox" /><label for="radio19" class="css-label radGroup1">Ms.c (53)</label></td>
+</tr>
+<tr>
+<td><input type="radio" name="third" id="radio20" class="css-checkbox" /><label for="radio20" class="css-label radGroup1">M.com (56)</label></td>
+</tr>
+<tr>
+<td><input type="radio" name="third" id="radio21" class="css-checkbox" /><label for="radio21" class="css-label radGroup1">B.A 1(23)</label></td>
+</tr>
+<tr>
+<td><input type="radio" name="third" id="radio22" class="css-checkbox" /><label for="radio22" class="css-label radGroup1"> Option 2 (5)</label></td>
+</tr>
+
+</table>
+		</div>
+    </div>
+    
+    </div>
+
+    <!-- right side - search result -->
+    	<div class="profile-box col-xs-9 col-sm-9 col-md-9 col-lg-9 ">
+        <!-- start of one profile section ; from here to end div tag need to be repeated when generating results -->
+        	<div class="wrapper2">
+            	<div class="col-xm-3 col-sm-3 col-md-3 col-lg-3">
+                	<div class="profile-image">
+                    	<a href=""><img src="images/success-stories/success3.jpg" alt="" class="img-responsive"></a>
+                        <div class="blue-line">
+                        	<center><button class="btn btn-primary"><i class="glyphicon glyphicon-user" aria-hidden="true"></i> Express Intrest</button></center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xm-9 col-sm-9 col-md-9 col-lg-9">
+                	<h3>Neera <span class="hvr-grow"><a href="#">( MAT5245 )</a> </span></h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                    <div class="divider-bar"><img src="images/Shape1.png" alt=""></div>
+                      <!-- info-box div class will be hidden for the mobile screen-->
+                    <div class="info-box-2"> 
+    	<table width="100%" border="0" cellspacing="20" cellpadding="22">
+  			<tbody>
+   				 <tr>
+      				<td> <i class="fa fa-circle-o" aria-hidden="true"></i> Caste Bharmin  <span> Karhade</span></td>
+     				 <td> <i class="fa fa-circle-o" aria-hidden="true"></i> Profession<span>Manager</span> </td>
+    			</tr>
+    				<tr>
+      				<td> <i class="fa fa-circle-o" aria-hidden="true"></i> Age/Height <span>18 / 5ft 4in</span> </td>
+     			    <td> <i class="fa fa-circle-o" aria-hidden="true"></i> Location <span>Mumbai</span> </td>
+    			</tr>
+                <tr>
+      				<td> <i class="fa fa-circle-o" aria-hidden="true"></i>Education <span>MBA</span></td>
+     			    <td> <i class="fa fa-circle-o" aria-hidden="true"></i> Work Location<span>Pune</span> </td>
+    			</tr>
+  			</tbody>
+		</table>
+        <h4>LAST LOGIN: <span>WITHIN LAST 3 HOURS </span></h4>
+		</div>
+        <!-- end of info-box -->
+        
+        <!-- info-box-mobile class div will be visible for the mobile screen-->
+        <div class="info-box-2-mobile"> 
+    	<table width="100%" border="0" cellspacing="20" cellpadding="22">
+  			<tbody>
+   				 <tr>
+      				<td> <i class="fa fa-circle-o" aria-hidden="true"></i> Caste Bharmin <br><span> Karhade</span></td>
+     				 <td> <i class="fa fa-circle-o" aria-hidden="true"></i> Profession<br><span>Manager</span> </td>
+    			</tr>
+    				<tr>
+      				<td> <i class="fa fa-circle-o" aria-hidden="true"></i> Age/Height<br><span>18 / 5ft 4in</span> </td>
+     			    <td> <i class="fa fa-circle-o" aria-hidden="true"></i> Location<br><span>Mumbai</span> </td>
+    			</tr>
+                <tr>
+      				<td> <i class="fa fa-circle-o" aria-hidden="true"></i>Education<br><span>MBA</span></td>
+     			    <td> <i class="fa fa-circle-o" aria-hidden="true"></i> Work Location<br><span>Pune</span> </td>
+    			</tr>
+  			</tbody>
+		</table>
+        <h4>LAST LOGIN: <span>WITHIN LAST 3 HOURS </span></h4>
+		</div>
+        <!-- end of info-box-mobile -->
+                </div>
+            </div>
+            
+            <!-- 2nd profile for demostration -->
+            
+            <!-- start of one profile section ; from here to end div tag need to be repeated when generating results -->
+        	<div class="wrapper2">
+            	<div class="col-xm-3 col-sm-3 col-md-3 col-lg-3">
+                	<div class="profile-image">
+                    	<a href="#"><img src="images/profile-images/requestPhotoG.jpg" alt="" class="img-responsive box-shadow-req-img hvr-bounce-out"></a>
+                        <div class="blue-line">
+                        	<center><button class="btn btn-primary"><i class="glyphicon glyphicon-user" aria-hidden="true"></i> Express Intrest</button></center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xm-9 col-sm-9 col-md-9 col-lg-9">
+                	<h3>Sheela <span class="hvr-grow"><a href="#">( MAT5245 )</a> </span></h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                    <div class="divider-bar"><img src="images/Shape1.png" alt=""></div>
+                      <!-- info-box div class will be hidden for the mobile screen-->
+                    <div class="info-box-2"> 
+    	<table width="100%" border="0" cellspacing="20" cellpadding="22">
+  			<tbody>
+   				 <tr>
+      				<td> <i class="fa fa-circle-o" aria-hidden="true"></i> Caste Bharmin  <span> Karhade</span></td>
+     				 <td> <i class="fa fa-circle-o" aria-hidden="true"></i> Profession<span>Manager</span> </td>
+    			</tr>
+    				<tr>
+      				<td> <i class="fa fa-circle-o" aria-hidden="true"></i> Age/Height <span>18 / 5ft 4in</span> </td>
+     			    <td> <i class="fa fa-circle-o" aria-hidden="true"></i> Location <span>Mumbai</span> </td>
+    			</tr>
+                <tr>
+      				<td> <i class="fa fa-circle-o" aria-hidden="true"></i>Education <span>MBA</span></td>
+     			    <td> <i class="fa fa-circle-o" aria-hidden="true"></i> Work Location<span>Pune</span> </td>
+    			</tr>
+  			</tbody>
+		</table>
+        <h4>LAST LOGIN: <span>WITHIN LAST 3 HOURS </span></h4>
+		</div>
+        <!-- end of info-box -->
+        
+        <!-- info-box-mobile class div will be visible for the mobile screen-->
+        <div class="info-box-2-mobile"> 
+    	<table width="100%" border="0" cellspacing="20" cellpadding="22">
+  			<tbody>
+   				 <tr>
+      				<td> <i class="fa fa-circle-o" aria-hidden="true"></i> Caste Bharmin <br><span> Karhade</span></td>
+     				 <td> <i class="fa fa-circle-o" aria-hidden="true"></i> Profession<br><span>Manager</span> </td>
+    			</tr>
+    				<tr>
+      				<td> <i class="fa fa-circle-o" aria-hidden="true"></i> Age/Height<br><span>18 / 5ft 4in</span> </td>
+     			    <td> <i class="fa fa-circle-o" aria-hidden="true"></i> Location<br><span>Mumbai</span> </td>
+    			</tr>
+                <tr>
+      				<td> <i class="fa fa-circle-o" aria-hidden="true"></i>Education<br><span>MBA</span></td>
+     			    <td> <i class="fa fa-circle-o" aria-hidden="true"></i> Work Location<br><span>Pune</span> </td>
+    			</tr>
+  			</tbody>
+		</table>
+        <h4>LAST LOGIN: <span>WITHIN LAST 3 HOURS </span></h4>
+		</div>
+        <!-- end of info-box-mobile -->
+                </div>
+            </div>
+        </div>
+
+</div>
+</div>
+
+<!-- copy of pagination bar-->
+<div class="top-header">
+	<div class="container">
+    	<div class="row">
+            <div class="pag">
+            
+           	  <nav>
+              <center>
+            	  <!-- Add class .pagination-lg for larger blocks or .pagination-sm for smaller blocks-->
+            	  <ul class="pagination">
+            	    <li><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+            	    <li class="active"><a href="#">1</a></li>
+            	    <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+            	    <li><a href="#" aria-label="Next"> Next <span aria-hidden="true">&raquo;</span></a></li>
+          	    </ul>
+                </center>
+          	  </nav>
+              
+            </div>
+        </div>
+	</div>
+</div>   
+
+
+  <!-- Login Modal -->
+  <div class="modal fade" id="myLoginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Member Login</h4>
+        </div>
+        <div class="modal-body clearfix">
+          <p>So, Login if you're a member. if not, please register and <a href=""> become a member. </a> </p>
+              <div class="loginbox col-md-7">
+                <form action="" method="post" name="form1" id="form1">
+                  <div class="form-group">
+                      <input id="emailid" class="form-control" type="text" name="txtusername" placeholder="Email ID" required>
+                  </div>
+                  <div class="form-group">
+                      <input id="exampleInputEmail3" class="form-control" type="password" name="txtpassword" placeholder="Password" required>
+                  </div>
+                  <div class="buttonWrapper clearfix">
+                    <input type="submit" value="Log in" class="btn btn-default reg-btn">
+                    <a href="" class="forgotlink">Forgot Password?</a>
+                  </div>
+                </form>
+             </div>
+              <div class="col-md-5">
+                <div class="notmemberyet">
+                  <p>Not a Member yet?</p>
+                  <a href="" class="btn btn-default login-btn">Register Now! (Free)</a>
+                </div>
+             </div>
+        </div>
+        <div class="modal-footer">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+ </section> 
+  <section class="footer">
+  <div class="container">
+  <div class="follow-bar">
+    	<div class="row"><center>
+        <h6>Follow Us</h6>
+        <img src="images/RoundedRectangle2.png" alt=""></center>
+        </div>
+    </div>
+    
+  <div class="row">
+  </div>
+  	<div class="social-links">
+    <center>
+    	<ul>
+       	  <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
+     </center>
+    </div>
+    <ul class="nav-footer pull-left">
+        <li class=""><a href="#">ABOUT US</a></li>
+        <li><a href="#">TERMS OF USE</a></li>
+        <li><a href="#">PRIVACY POLICY</a></li>
+        <li><a href="#">HELP</a></li>
+        <li><a href="#">CONTACT US</a></li>
+      </ul>
+      <p class="pull-right copy-right">Copyright &copy; 2016 &middot; All Rights Reserved &middot; <a href="http://azure.dulan.com/" > Website</a></p>
+  </div>
+  <div class="mobile-copy-right row">
+  	<p>Copyright &copy; 2016 &middot; All Rights Reserved &middot; <a href="http://azure.dulan.com/" > Website</a></p>
+  </div>
+  </section>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.fitvids.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
